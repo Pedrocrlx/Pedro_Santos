@@ -4,15 +4,18 @@ This is a personal portfolio project built with React and Vite. It is designed t
 
 ## Prerequisites
 
-Before you begin, make sure you have **Node.js** and **npm** installed on your computer.
-You can verify if they are installed by running the following commands in your terminal:
+Before you begin, make sure you have **Bun** installed on your computer.
+You can verify if it is installed by running the following command in your terminal:
 
 ```bash
-node -v
-npm -v
+bun -v
 ```
 
-If they are not installed, you can download them from [nodejs.org](https://nodejs.org/).
+If it is not installed, you can install it by running:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
 
 ## How to Run the Project
 
@@ -22,14 +25,14 @@ Follow these steps to run the application on your computer:
     Open the terminal in the project folder and run the following command to download all necessary libraries (listed in `package.json`):
 
     ```bash
-    npm install
+    bun install
     ```
 
 2.  **Run Development Server**:
     To see the site working while you edit, run:
 
     ```bash
-    npm run dev
+    bun run dev
     ```
 
     The terminal will show a link (usually `http://localhost:5173`). Click on it or copy and paste it into your browser.
@@ -38,7 +41,7 @@ Follow these steps to run the application on your computer:
     When you are ready to publish the site, run:
 
     ```bash
-    npm run build
+    bun run build
     ```
 
     This will create a `dist` folder with the optimized files for the site.
