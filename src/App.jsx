@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <main>
+      <main id="main">
         <Hero />
         <About />
         <Experience />

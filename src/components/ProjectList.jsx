@@ -6,7 +6,7 @@ const ProjectList = () => {
     return (
         <section id="projects" className="projects-section">
             <div className="container">
-                <h2>My Projects</h2>
+                <div className="section-heading"><h2><span aria-hidden="true">04 / </span>projects/</h2><span>SELECTED WORK</span></div>
                 <div className="projects-grid">
                     {projects.map((project) => (
                         <ProjectCard key={project.id} project={project} />

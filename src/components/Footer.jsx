@@ -1,21 +1,17 @@
-import React from 'react';
-
-const Footer = () => {
-    return (
-        <footer id="contact" className="footer">
-            <div className="container footer-content">
-                <div className="contact-info">
-                    <h3>Contact Me</h3>
-                    <p>Email: pedro.santos@example.com</p>
-                    <p>LinkedIn: linkedin.com/in/pedrosantos</p>
-                    <p>GitHub: github.com/pedrosantos</p>
-                </div>
-                <div className="copyright">
-                    <p>&copy; {new Date().getFullYear()} Pedro Santos. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-    );
-};
-
+const Footer = () => (
+  <footer id="contact" className="footer">
+    <div className="container">
+      <div className="section-heading"><h2><span aria-hidden="true">05 / </span>contact.txt</h2><span>GET IN TOUCH</span></div>
+      <div className="contact-content">
+        <h3>Let’s build something<br />that works.</h3>
+        <p>
+          <a className="text-link" href="https://github.com/pedrocrlx" target="_blank" rel="noopener noreferrer">GitHub: pedrocrlx ↗</a>
+          <br />
+          <a className="text-link" href="mailto:pedropsantos.dev@gmail.com">pedropsantos.dev@gmail.com</a>
+        </p>
+      </div>
+      <div className="footer-bottom"><span>© {new Date().getFullYear()} Pedro Santos</span><a href="#home">Back to top ↑</a></div>
+    </div>
+  </footer>
+);
 export default Footer;
