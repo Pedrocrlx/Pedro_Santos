@@ -1,60 +1,17 @@
-# React Portfolio
+# Pedro Santos — Personal Portfolio
 
-This is a personal portfolio project built with React and Vite. It is designed to be simple to understand and modify.
+My personal portfolio, showcasing the projects I’ve built, my professional experience and my journey in software development. My interests focus on backend development, infrastructure and automation — making things work and keeping them simple.
 
-## Prerequisites
+The site features a terminal-inspired design, selected projects, a technical toolbox and an About me page covering my background and approach to working in teams.
 
-Before you begin, make sure you have **Bun** installed on your computer.
-You can verify if it is installed by running the following command in your terminal:
+**Visit:** [www.pedrocrlx.pt](https://www.pedrocrlx.pt)
 
-```bash
-bun -v
-```
+## Design inspiration
 
-If it is not installed, you can install it by running:
+The design draws from terminals, command-line interfaces and the file structure of an operating system. Section names such as `about.md`, `journey.log` and `toolbox.conf` present my background, experience and tools as files in a personal workspace.
 
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
+Monospace typography, a dark background, muted green accents and subtle borders reflect the development environments I enjoy working in, while keeping the focus on the content.
 
-## How to Run the Project
+## Technologies used
 
-Follow these steps to run the application on your computer:
-
-1.  **Install Dependencies**:
-    Open the terminal in the project folder and run the following command to download all necessary libraries (listed in `package.json`):
-
-    ```bash
-    bun install
-    ```
-
-2.  **Run Development Server**:
-    To see the site working while you edit, run:
-
-    ```bash
-    bun run dev
-    ```
-
-    The terminal will show a link (usually `http://localhost:5173`). Click on it or copy and paste it into your browser.
-
-3.  **Build for Production**:
-    When you are ready to publish the site, run:
-
-    ```bash
-    bun run build
-    ```
-
-    This will create a `dist` folder with the optimized files for the site.
-
-## Project Structure
-
--   `src/components`: Contains React components (Header, Hero, ProjectList, etc.).
--   `src/data`: Contains project data (`projects.js`). You can add your own projects here.
--   `src/App.jsx`: The main component that assembles everything.
--   `src/index.css`: The CSS styles file.
-
-## Technologies Used
-
--   **React**: Library for building user interfaces.
--   **Vite**: Fast tool for creating and running web projects.
--   **CSS**: Standard styling (no complex frameworks) for easy learning.
+React · Vite · CSS · React Icons · Bun · Vercel
