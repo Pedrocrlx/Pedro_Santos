@@ -7,6 +7,8 @@ const Footer = () => (
         <p>
           <a className="text-link" href="https://github.com/pedrocrlx" target="_blank" rel="noopener noreferrer">GitHub: pedrocrlx ↗</a>
           <br />
+          <a className="text-link" href="https://www.linkedin.com/in/p-santoss" target="_blank" rel="noopener noreferrer">LinkedIn: Pedro Santos ↗</a>
+          <br />
           <a className="text-link" href="mailto:pedropsantos.dev@gmail.com">pedropsantos.dev@gmail.com</a>
         </p>
       </div>

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import ProjectBrand from './ProjectBrand';
 
 const projects = [
   {
@@ -64,7 +65,7 @@ const AboutPage = () => {
         <div className="section-heading"><h2 id="story-title"><span aria-hidden="true">01 / </span>My journey</h2><span>HOW IT STARTED</span></div>
         <div className="about-prose">
           <p>My first steps in programming came during secondary school, through the professional
-            course in Software Development (Técnico de Desenvolvimento de Software). I learned the
+            course in Software Development. I learned the
             basics of programming logic, algorithms and data structures, explored object-oriented
             programming with C#, and started building for the web with HTML, CSS and JavaScript.</p>
           <h3>Where it became real</h3>
@@ -120,12 +121,12 @@ const AboutPage = () => {
             <article className="about-project" key={project.name}>
               <span className="item-number">[0{index + 1}]</span>
               <div>
-                <h3>{project.name}</h3>
+                <h3><ProjectBrand name={project.name} /></h3>
                 <p className="about-project-context">{project.context}</p>
                 <p>{project.description}</p>
                 <div className="about-project-links">
                   <a className="text-link" href={project.url} target="_blank" rel="noopener noreferrer">View source ↗</a>
-                  {project.live && <a className="text-link" href={project.live} target="_blank" rel="noopener noreferrer">Visit Grid ↗</a>}
+                  {project.live && <a className="text-link" href={project.live} target="_blank" rel="noopener noreferrer">Visit {project.name} ↗</a>}
                 </div>
               </div>
             </article>

@@ -2,7 +2,7 @@ const ProjectCard = ({ project }) => (
   <article className="project-card">
     <span className="item-number">{String(project.id).padStart(2, '0')}</span>
     <div className="project-info">
-      <h3>{project.title}</h3>
+      <h3><ProjectBrand name={project.title} /></h3>
       <p>{project.description}</p>
       <ul className="tags" aria-label="Technologies and focus areas">{project.tags.map(tag => <li key={tag}>{tag}</li>)}</ul>
     </div>
@@ -12,3 +12,4 @@ const ProjectCard = ({ project }) => (
   </article>
 );
 export default ProjectCard;
+import ProjectBrand from './ProjectBrand';
