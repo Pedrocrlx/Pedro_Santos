@@ -3,12 +3,22 @@ import { FaBriefcase, FaGraduationCap, FaCode } from 'react-icons/fa';
 
 const experienceData = [
     {
+        id: 5,
+        type: 'education',
+        title: 'Bachelor’s in Software Engineering · Top-Up Year',
+        organization: 'Teesside University · in collaboration with ETIC Algarve',
+        date: 'Starting Oct 2026',
+        description: 'Starting the Software Engineering Top-Up Year towards a bachelor’s degree, continuing my studies after completing the Web Development course at ETIC Algarve.',
+        icon: <FaGraduationCap />,
+        highlight: true
+    },
+    {
         id: 1,
         type: 'work',
         title: 'Backend Intern (Python)',
         organization: 'Devoteam Portugal · Lisbon',
         date: 'May – Aug 2026',
-        description: 'Contributed to BA Glass and the xTeam Agentic Framework, developing backend APIs, database models and migrations. Delivered payloads for analytics dashboards, implemented unit tests and owned backend development for the AI Skills initiative. Improved REST API consistency through unique IDs and pagination, refactored core endpoints and resolved CI/CD pipeline failures.',
+        description: 'Contributed to BA Glass and the xAi Agentic Framework, developing backend APIs, database models and migrations. Delivered payloads for analytics dashboards, implemented unit tests and owned backend development for the AI Skills initiative. Improved REST API consistency through unique IDs and pagination, refactored core endpoints and worked with Bitbucket Pipelines to resolve CI/CD failures.',
         icon: <FaBriefcase />,
         highlight: true
     },
@@ -35,10 +45,10 @@ const experienceData = [
     {
         id: 4,
         type: 'education',
-        title: 'IT Management and Computer Programming Technician',
+        title: 'Software Development Technician',
         organization: 'Escola Secundária de Albufeira',
         date: 'Sep 2019 – May 2022',
-        description: 'Technical education in IT management and computer programming.',
+        description: 'Professional course in Software Development (Técnico de Desenvolvimento de Software), covering programming fundamentals, C# and web development.',
         icon: <FaGraduationCap />,
         highlight: false
     }

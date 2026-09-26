@@ -27,7 +27,14 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
 .skip-link:focus { top: 12px; }
 .hero { padding: 42px 0 0; }
 .terminal-bar { display: flex; justify-content: space-between; border: 1px solid var(--line); padding: 8px 16px; color: var(--muted); font-size: 11px; background: #20241f; }
-.hero-content { border-inline: 1px solid var(--line); padding: 52px 46px 48px; }
+.hero-content { display: grid; grid-template-columns: minmax(0, 1fr) 280px; align-items: center; gap: 36px; border-inline: 1px solid var(--line); padding: 52px 46px 48px; }
+.hero-copy { min-width: 0; }
+.hero-portrait { padding: 7px; border: 1px solid var(--line); background: #20241f; }
+.hero-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center 25%; }
+.hero-copy h1 { font-size: clamp(36px, 5vw, 58px); }
+.hero-content.hero-content-home { grid-template-columns: minmax(0, 1fr); }
+.hero-content-home .hero-copy { max-width: 700px; }
+.hero-content-home h1 { font-size: clamp(36px, 6.5vw, 68px); }
 .command { color: var(--accent); font-size: 13px; margin-bottom: 22px; }
 h1 { font-size: clamp(36px, 6.5vw, 68px); font-weight: 500; letter-spacing: -4px; line-height: 1.15; }
 .cursor { color: var(--accent); }
@@ -51,6 +58,7 @@ h1 { font-size: clamp(36px, 6.5vw, 68px); font-weight: 500; letter-spacing: -4px
 .item-number { color: var(--accent); font-size: 11px; }
 .workflow-card h3 { font-size: 13px; font-weight: 500; margin: 10px 0; }
 .workflow-card p { color: var(--muted); font-size: 12px; }
+.workflow-card p a { color: var(--accent); text-decoration: underline; }
 .timeline-item { position: relative; padding: 0 0 28px 30px; border-left: 1px solid var(--line); margin-left: 6px; }
 .timeline-item:last-child { padding-bottom: 0; }
 .timeline-icon { position: absolute; left: -4px; top: 10px; width: 7px; height: 7px; background: var(--muted); }
@@ -82,13 +90,35 @@ h1 { font-size: clamp(36px, 6.5vw, 68px); font-weight: 500; letter-spacing: -4px
 .contact-content p { font-size: 12px; align-self: center; }
 .muted { color: var(--muted); }
 .footer-bottom { display: flex; justify-content: space-between; gap: 20px; font-size: 10px; color: var(--muted); border-top: 1px solid var(--line); padding: 20px 0 26px; }
+.nav-links a[aria-current="page"] { color: var(--accent); text-decoration: underline; text-underline-offset: 6px; }
+.about-page { padding-top: 28px; }
+.about-back { display: inline-block; margin-bottom: 24px; font-size: 12px; color: var(--muted); }
+.about-chapter { padding-top: 64px; }
+.about-prose { max-width: 760px; color: var(--muted); }
+.about-prose p + p { margin-top: 20px; }
+.about-prose h3 { margin: 28px 0 10px; color: var(--accent); font-size: 14px; font-weight: 500; }
+.about-principle { margin-top: 28px; border-left: 2px solid var(--accent); background: #20241f; padding: 22px 26px; }
+.about-principle p { margin-top: 8px; font-size: 16px; }
+.about-project { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 18px; padding: 26px 0; border-bottom: 1px solid var(--line); }
+.about-project:first-child { padding-top: 0; }
+.about-project h3 { font-size: 16px; font-weight: 500; overflow-wrap: anywhere; }
+.about-project p { max-width: 740px; color: var(--muted); font-size: 13px; }
+.about-project .about-project-context { color: var(--accent); font-size: 11px; margin: 5px 0 12px; }
+.about-project-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 14px; font-size: 12px; }
+@media (max-width: 900px) {
+  .hero-content { grid-template-columns: minmax(0, 1fr) 220px; gap: 24px; padding-inline: 28px; }
+  .hero-actions { flex-wrap: wrap; gap: 20px; }
+}
 @media (max-width: 700px) {
   .container { width: calc(100% - 36px); }
   .header-container { min-height: 68px; gap: 12px; }
   .logo { font-size: 12px; }
   .nav-links { gap: 14px; font-size: 10px; }
   .hero { padding-top: 24px; }
-  .hero-content { padding: 32px 22px; }
+  .hero-content { grid-template-columns: 1fr; gap: 32px; padding: 32px 22px; }
+  .hero-portrait { width: min(100%, 280px); justify-self: center; }
+  .about-chapter { padding-top: 44px; }
+  .about-project { grid-template-columns: 24px minmax(0, 1fr); gap: 12px; }
   h1 { letter-spacing: -2px; }
   .subtitle { font-size: 14px; }
   .bio { font-size: 12px; }

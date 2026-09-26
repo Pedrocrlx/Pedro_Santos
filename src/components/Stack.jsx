@@ -1,8 +1,11 @@
 const stack = [
   ['Frontend', ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React (Vite & Next.js)']],
-  ['Backend', ['Python', 'Uv', 'Node.js', 'FastAPI', 'Django', 'Poetry']],
-  ['Infrastructure', ['Docker', 'Git', 'GitHub']],
-  ['Databases', ['PostgreSQL', 'SQL']],
+  ['Backend', ['Python (FastAPI, Django)', 'uv & Poetry', 'Node.js']],
+  ['Infrastructure', ['Linux / VPS', 'Docker & Docker Compose', 'Nginx reverse proxy', 'HTTPS / TLS']],
+  ['Infrastructure labs', ['Kubernetes (Minikube)', 'Terraform', 'ETIC coursework']],
+  ['Databases', ['PostgreSQL', 'SQL', 'Redis']],
+  ['Development tools', ['Git', 'GitHub', 'Makefiles', 'Devcontainers', 'Bash / Shell scripting']],
+  ['CI/CD', ['Bitbucket Pipelines', 'GitHub Actions (CI)']],
 ];
 const Stack = () => (
   <section className="stack-section" id="stack">

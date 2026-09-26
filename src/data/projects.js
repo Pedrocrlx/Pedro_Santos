@@ -1,26 +1,26 @@
 export const projects = [
   {
     id: 1,
-    title: "School Library System",
-    description: "A management system for the school library built with Java and MySQL.",
-    image: "https://placehold.co/600x400?text=Library+System",
-    link: "#",
-    tags: ["Java", "MySQL", "Swing"]
+    title: "EarnIt",
+    description: "My second-year final project at ETIC Algarve, bringing together design, planning and implementation. I led the team, coordinated features and deliveries, and shaped the architecture and technology choices while contributing across the application.",
+    link: null,
+    status: "Live demo coming soon",
+    tags: ["Full-stack", "Design", "Architecture", "Team leadership"]
   },
   {
     id: 2,
-    title: "Personal Budget Tracker",
-    description: "A web application to track daily expenses using HTML, CSS, and JavaScript.",
-    image: "https://placehold.co/600x400?text=Budget+Tracker",
-    link: "#",
-    tags: ["HTML", "CSS", "JavaScript"]
+    title: "Grid",
+    description: "A frontend project built during ETIC Algarve’s Frontend II module, putting React and Next.js into practice. Deployed with Vercel, it showcases my experience building and shipping a web interface.",
+    link: "https://gridschedule.com",
+    linkLabel: "Visit Grid",
+    tags: ["React", "Next.js", "Frontend", "Vercel"]
   },
   {
     id: 3,
-    title: "Weather App",
-    description: "A simple weather application fetching data from an API.",
-    image: "https://placehold.co/600x400?text=Weather+App",
-    link: "#",
-    tags: ["React", "API", "CSS"]
+    title: "Cloud Infrastructure Automation v2",
+    description: "A hands-on training package from the Cloud Computing module, exploring infrastructure automation with Kubernetes, Terraform and Minikube. It reflects the direction I want to pursue: simpler infrastructure and automated processes.",
+    link: "https://github.com/Pedrocrlx/Cloud-Infrastructure-Automation-v2",
+    linkLabel: "View repository",
+    tags: ["Kubernetes", "Terraform", "Minikube", "Automation"]
   }
 ];
