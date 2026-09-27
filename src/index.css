@@ -35,6 +35,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
 .hero-content.hero-content-home { grid-template-columns: minmax(0, 1fr); }
 .hero-content-home .hero-copy { max-width: 700px; }
 .hero-content-home h1 { font-size: clamp(36px, 6.5vw, 68px); }
+.availability { border-left: 2px solid var(--accent); padding-left: 14px; margin-bottom: 28px; max-width: 660px; color: var(--accent); font-size: 12px; }
 .command { color: var(--accent); font-size: 13px; margin-bottom: 22px; }
 h1 { font-size: clamp(36px, 6.5vw, 68px); font-weight: 500; letter-spacing: -4px; line-height: 1.15; }
 .cursor { color: var(--accent); }

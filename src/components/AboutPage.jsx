@@ -32,6 +32,7 @@ const projects = [
     context: 'Group project · Databases',
     description: 'A group project focused on databases, also deployed on a VPS with Docker Compose and Nginx. The setup runs Django and PostgreSQL on an internal Docker network, with HTTPS and persistent database storage. CI is implemented with GitHub Actions; automated deployment is planned.',
     url: 'https://github.com/Pedrocrlx/MidnightLibrary',
+    live: 'https://midnightlibrary.pedrocrlx.pt',
   },
 ];
 

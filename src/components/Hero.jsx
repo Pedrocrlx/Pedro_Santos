@@ -4,6 +4,7 @@ const Hero = () => (
       <div className="terminal-bar"><span>~/pedro-santos</span><span>portfolio / index</span></div>
       <div className="hero-content hero-content-home">
         <div className="hero-copy">
+          <p className="availability">Open to work across technologies and roles. Python is my focus, but I’m eager to learn and work with any language.</p>
           <p className="command"><span aria-hidden="true">$ </span>whoami</p>
           <h1>Pedro Santos<span className="cursor" aria-hidden="true">_</span></h1>
           <p className="subtitle">Full-stack development & infrastructure.</p>

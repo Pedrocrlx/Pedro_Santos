@@ -2,8 +2,9 @@ export const projects = [
   {
     id: 1,
     title: "EarnIt",
-    description: "My second-year final project at ETIC Algarve, bringing together design, planning and implementation. I led the team, coordinated features and deliveries, and shaped the architecture and technology choices while contributing across the application.",
-    link: null,
+    description: "My second-year final project at ETIC Algarve, bringing together design, planning and implementation. I led the team, coordinated features and deliveries, and shaped the architecture and technology choices while developing the entire frontend and contributing to the backend through technical decisions and code review.",
+    link: "https://github.com/Pedrocrlx/EarnIt",
+    linkLabel: "View repository",
     status: "Live demo coming soon",
     tags: ["Full-stack", "Design", "Architecture", "Team leadership"]
   },
