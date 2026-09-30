@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "EarnIt",
-    description: "A full-stack application taken from design to deployment as my second-year final project at ETIC Algarve. I led the team and shaped the architecture, then deployed it on my VPS using Docker Compose, Nginx and PostgreSQL. Self-hosting puts application delivery, persistent storage and runtime configuration under my control.",
+    description: "A family app that connects household tasks with rewards, designed to help parents encourage children to contribute at home and work towards things they want. I led the team from design to implementation, shaped the architecture and deployed it on my VPS with Docker Compose, Nginx and PostgreSQL.",
     link: "https://earnit.pedrocrlx.pt/",
     linkLabel: "Visit EarnIt",
     status: "Live · Self-hosted VPS",
@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 2,
     title: "Grid",
-    description: "A SaaS application built with Next.js, hosted on Vercel and backed by Supabase for PostgreSQL, authentication and storage. Developed during Frontend II at ETIC Algarve, it combines a React interface with managed services that handle key parts of the infrastructure.",
+    description: "A SaaS for barbershops and chains to centralize bookings, services, staff and pricing, with customizable booking pages and a single-subscription model. I built it with Next.js and connected it to Supabase for authentication, PostgreSQL and storage, using Vercel for hosting.",
     link: "https://gridschedule.com",
     linkLabel: "Visit Grid",
     status: "Live · Managed services",

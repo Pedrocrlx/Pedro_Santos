@@ -11,14 +11,14 @@ const projects = [
   {
     name: 'EarnIt',
     context: 'Second-year final project · Live on my VPS',
-    description: 'I led the team from feature planning and architecture to implementation, helping across the application. I deployed EarnIt on my personal VPS with Docker Compose, Nginx and PostgreSQL, taking responsibility for the deployment configuration and persistent storage.',
+    description: 'EarnIt helps families organize household tasks and rewards in one place. It is designed to give children a reason to contribute at home and connect their efforts with rewards they want to earn. As my second-year final project, I led the team, coordinated features and deliveries, and shaped the architecture. I then deployed it on my VPS with Docker Compose, Nginx and PostgreSQL, taking responsibility for deployment configuration and persistent storage.',
     url: 'https://github.com/Pedrocrlx/EarnIt',
     live: 'https://earnit.pedrocrlx.pt/',
   },
   {
     name: 'Grid',
     context: 'Frontend II · Live SaaS / Managed services',
-    description: 'A Next.js SaaS application deployed on Vercel, using Supabase for PostgreSQL, authentication and storage. It let me connect the frontend to managed services and explore an alternative to running the infrastructure on my own VPS.',
+    description: 'Grid is designed for individual barbershops and growing chains that want a simple place to manage bookings and daily operations. Shops can customize their booking page, manage staff, and define the services each person offers and their prices. The aim is to bring this together under one subscription. Built during Frontend II, I used Next.js with Supabase for authentication, PostgreSQL and storage, and deployed it on Vercel, gaining experience with managed services alongside my self-hosted projects.',
     url: 'https://github.com/Pedrocrlx/grid',
     live: 'https://gridschedule.com',
   },
