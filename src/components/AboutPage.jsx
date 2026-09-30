@@ -10,21 +10,22 @@ const projects = [
   },
   {
     name: 'EarnIt',
-    context: 'Second-year final project',
-    description: 'Another opportunity to lead a team through a complete project. My responsibilities included feature planning, delivery coordination and technical decisions, while helping teammates across different parts of the application.',
+    context: 'Second-year final project · Live on my VPS',
+    description: 'I led the team from feature planning and architecture to implementation, helping across the application. I deployed EarnIt on my personal VPS with Docker Compose, Nginx and PostgreSQL, taking responsibility for the deployment configuration and persistent storage.',
     url: 'https://github.com/Pedrocrlx/EarnIt',
+    live: 'https://earnit.pedrocrlx.pt/',
   },
   {
     name: 'Grid',
-    context: 'Frontend II · React / Next.js',
-    description: 'A chance to put React and Next.js into practice and take an application online with Vercel.',
+    context: 'Frontend II · Live SaaS / Managed services',
+    description: 'A Next.js SaaS application deployed on Vercel, using Supabase for PostgreSQL, authentication and storage. It let me connect the frontend to managed services and explore an alternative to running the infrastructure on my own VPS.',
     url: 'https://github.com/Pedrocrlx/grid',
     live: 'https://gridschedule.com',
   },
   {
     name: 'Cloud Infrastructure Automation',
-    context: 'Cloud Computing · Kubernetes / Terraform / Minikube',
-    description: 'Exploring infrastructure automation and working with Kubernetes, Terraform and a local Minikube environment.',
+    context: 'Academic lab · DevOps / Platform engineering',
+    description: 'A training project exploring infrastructure as code with Terraform, container orchestration with Kubernetes and Helm, and delivery automation with Docker and CI/CD. It represents my learning in a lab environment, rather than professional cloud operations experience.',
     url: 'https://github.com/Pedrocrlx/Cloud-Infrastructure-Automation-v2',
   },
   {
@@ -32,6 +33,7 @@ const projects = [
     context: 'Group project · Databases',
     description: 'A group project focused on databases, also deployed on a VPS with Docker Compose and Nginx. The setup runs Django and PostgreSQL on an internal Docker network, with HTTPS and persistent database storage. CI is implemented with GitHub Actions; automated deployment is planned.',
     url: 'https://github.com/Pedrocrlx/MidnightLibrary',
+    live: 'https://midnightlibrary.pedrocrlx.pt',
   },
 ];
 
