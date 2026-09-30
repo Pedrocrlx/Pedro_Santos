@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "EarnIt",
-    description: "A family app that connects household tasks with rewards, designed to help parents encourage children to contribute at home and work towards things they want. I led the team from design to implementation, shaped the architecture and deployed it on my VPS with Docker Compose, Nginx and PostgreSQL.",
+    description: "A family app that connects household tasks with rewards, designed to help parents encourage children to contribute at home and work towards things they want. I led the team and shaped the architecture, developed the entire frontend, and contributed to backend technical decisions and code review. I deployed it on my VPS with Docker Compose, Nginx and PostgreSQL.",
     link: "https://earnit.pedrocrlx.pt/",
     linkLabel: "Visit EarnIt",
     status: "Live · Self-hosted VPS",
