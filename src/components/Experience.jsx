@@ -7,7 +7,7 @@ const experienceData = [
         type: 'education',
         title: 'Bachelor’s in Software Engineering · Top-Up Year',
         organization: 'Teesside University · in collaboration with ETIC Algarve',
-        date: 'Starting Oct 2026',
+        date: 'Oct 2026 – May 2027',
         description: 'Starting the Software Engineering Top-Up Year towards a bachelor’s degree, continuing my studies after completing the Web Development course at ETIC Algarve.',
         icon: <FaGraduationCap />,
         highlight: true
